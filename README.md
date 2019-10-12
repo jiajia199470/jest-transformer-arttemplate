@@ -1,12 +1,11 @@
-[![build status](http://std.mama.cn/mfex/jest-transformer-arttemplate/badges/master/build.svg)](http://std.mama.cn/mfex/jest-transformer-arttemplate/commits/master)[![coverage report](http://std.mama.cn/mfex/jest-transformer-arttemplate/badges/master/coverage.svg)](http://std.mama.cn/mfex/jest-transformer-arttemplate/commits/master)
 
 # jest-transformer-arttemplate
+
+jest artTemplate transformer ( jest artTemplate 模版文件转换成 js )
 
 Jest doesn't handle non JavaScript assets by default.
 
 You can use this module to avoid errors when importing 'art-template' file assets;
-
-使 jest 支持解析 artTemplate 文件,可将模板转换成为 js 
 
 ## Usage
 
