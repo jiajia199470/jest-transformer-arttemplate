@@ -12,7 +12,7 @@ You can use this module to avoid errors when importing 'art-template' file asset
 一、安装
 
 ```shell
-npm install --save-dev @mfex/jest-transformer-arttemplate
+npm install --save-dev jest-transformer-arttemplate
 ```
 
 二、配置
@@ -29,7 +29,7 @@ module.exports = {
   ], // 需要解析的文件类型
   transform: {
     '^.+\\.jsx?$': 'babel-jest',
-    '.+\\.art$': '@mfex/jest-transformer-arttemplate',
+    '.+\\.art$': 'jest-transformer-arttemplate',
   } // 解析文件对应使用的转换工具。
 }
 
@@ -47,7 +47,7 @@ module.exports = {
   ], // 需要解析的文件类型
   transform: {
     '^.+\\.jsx?$': 'babel-jest',
-    '.+\\.(art|html|tpl)$': '@mfex/jest-transformer-arttemplate',
+    '.+\\.(art|html|tpl)$': 'jest-transformer-arttemplate',
   } // 解析文件对应使用的转换工具。
 }
 
