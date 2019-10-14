@@ -1,6 +1,6 @@
 {
     "name": "jest-transformer-arttemplate",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "jest 下将 arttemple 文件转换为 js",
     "main": "./src/index.js",
     "scripts": {
