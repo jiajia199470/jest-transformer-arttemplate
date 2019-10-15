@@ -6,6 +6,11 @@
     "scripts": {
         "test": "./node_modules/.bin/jest --watchAll"
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jiajia199470/jest-transformer-arttemplate.git"
+    },
+    "homepage": "https://github.com/jiajia199470/jest-transformer-arttemplate#readme",
     "keywords": [
         "jest",
         "art-template",
